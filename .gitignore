@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# macOS hidden files and folders
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+Icon?
+._*
