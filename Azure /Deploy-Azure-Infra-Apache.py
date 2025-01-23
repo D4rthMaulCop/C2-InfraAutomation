@@ -11,6 +11,7 @@ import time
 import termcolor
 import uuid
 
+# util functions to generate UUID and passwords
 def generate_uuid():
     return str(uuid.uuid4())
 
@@ -18,7 +19,6 @@ def generate_complex_string():
     characters = string.ascii_letters + string.digits + string.punctuation
     complex_string = ''.join(random.choices(characters, k=24))
     return complex_string
-
 
 # Azure Configuration
 subscription_id = ''
